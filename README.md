@@ -1,77 +1,74 @@
-Warehouse Management System (WMS)
-A simple PHP-based Warehouse Management System that allows managing products, suppliers, sales, and users with a secure login system.
+# Warehouse Management System (WMS)
 
-📦 Features
-User Authentication: Login & Logout functionality
+A simple **PHP-based Warehouse Management System** to manage products, suppliers, sales, and users via a secure admin login.
 
-Product Management: Add, edit, delete, and view products
+## 🔑 Default Login Credentials
 
-Supplier Management: Maintain supplier records
+- **Username:** `anmol`
+- **Password:** `anmol`
 
-Sales Management: Track sales and generate sales reports
+*(Change these immediately after first login for security.)*
 
-User Management: Admin can manage user accounts
+## 📦 Features
 
-Database Support: Includes database.sql for easy setup
+- User Authentication (Login & Logout)
+- Product Management (Add/Edit/Delete/View)
+- Supplier Management
+- Sales Tracking & Reporting
+- User Account Management (Admin only)
+- Database setup provided via `database.sql`
 
-🔑 Default Login Credentials
-Username: anmol
-Password: anmol
-(Change these after first login for security.)
+## 🛠 Technologies Used
 
-🛠️ Technologies Used
-Frontend: HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Server:** Apache (e.g., XAMPP or WAMP)
 
-Backend: PHP
+## 🚀 Installation
 
-Database: MySQL
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/anm00lll/warehouse-management-system.git
+   ```
 
-Server: Apache (XAMPP/WAMP recommended)
+2. Move the project folder inside your server’s web root.  
+   For example, with XAMPP:  
+   `C:\xampp\htdocs\warehouse-management-system`
 
-🚀 Installation
-Clone the repository
+3. Import the database:  
+   - Open **phpMyAdmin**
+   - Create a database (`warehouse-management-system`)
+   - Import `database.sql` from the project folder
 
-git clone https://github.com/anm00lll/warehouse-management-system.git
-Move the project to your local server directory
+4. Configure the database connection:  
+   - Open `includes/config.php`
+   - Update the DB host, username, password, and database name if needed
 
-Example for XAMPP: C:/xampp/htdocs/warehouse-management-system
+5. Start Apache & MySQL in your server environment
 
-Create the database
+6. Visit in your browser:  
+   ```
+   http://localhost/warehouse-management-system
+   ```
 
-Open phpMyAdmin
+## 📂 Project Structure
 
-Create a database (warehouse-management-system)
-
-Import the database.sql file from the project folder
-
-Configure database connection
-
-Open includes/config.php
-
-Update the database credentials if needed
-
-Run the project
-
-Start Apache & MySQL in XAMPP
-
-Visit: http://localhost/warehouse-management-system
-
-📂 Project Structure
-
+```
 warehouse-management-system/
-│-- index.php
-│-- login.php
-│-- home.php
-│-- products.php
-│-- suppliers.php
-│-- sales.php
-│-- users.php
-│-- database.sql
+│— index.php
+│— login.php
+│— home.php
+│— products.php
+│— suppliers.php
+│— sales.php
+│— users.php
+│— database.sql
 │
 ├─ assets/
 │   ├─ css/ (style.css)
 │   ├─ js/ (script.js)
-│   └─ images/ (logo.png)
+│   └─ images/
 │
 ├─ includes/
 │   ├─ config.php
@@ -81,12 +78,16 @@ warehouse-management-system/
 │
 ├─ _actions/
 │   ├─ add_product.php / edit_product.php / delete_product.php
-│   ├─ add_supplier.php / edit_supplier.php / delete_supplier.php
-│   ├─ add_sale.php / edit_sale.php / delete_sale.php
-│   └─ add_user.php / edit_user.php / delete_user.php
+│   ├─ add_supplier.php / ... 
+│   ├─ add_sale.php / ...
+│   └─ add_user.php / ...
 │
 └─ uploads/
     ├─ products/
     └─ users/
-👨‍💻 Author
-Anmol Som
+```
+
+## 👨‍💻 Author
+
+**Anmol Som**  
+
