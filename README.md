@@ -16,9 +16,7 @@ Database Support: Includes database.sql for easy setup
 
 🔑 Default Login Credentials
 Username: anmol
-
 Password: anmol
-
 (Change these after first login for security.)
 
 🛠️ Technologies Used
@@ -33,10 +31,7 @@ Server: Apache (XAMPP/WAMP recommended)
 🚀 Installation
 Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/warehouse-management-system.git
+git clone https://github.com/anm00lll/warehouse-management-system.git
 Move the project to your local server directory
 
 Example for XAMPP: C:/xampp/htdocs/warehouse-management-system
@@ -62,9 +57,7 @@ Start Apache & MySQL in XAMPP
 Visit: http://localhost/warehouse-management-system
 
 📂 Project Structure
-pgsql
-Copy
-Edit
+
 warehouse-management-system/
 │-- index.php
 │-- login.php
