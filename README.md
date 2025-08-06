@@ -2,14 +2,14 @@
 
 A simple **PHP-based Warehouse Management System** to manage products, suppliers, sales, and users via a secure admin login.
 
-## 🔑 Default Login Credentials
+##  Default Login Credentials
 
 - **Username:** `anmol`
 - **Password:** `anmol`
 
 *(Change these immediately after first login for security.)*
 
-## 📦 Features
+##  Features
 
 - User Authentication (Login & Logout)
 - Product Management (Add/Edit/Delete/View)
@@ -18,14 +18,14 @@ A simple **PHP-based Warehouse Management System** to manage products, suppliers
 - User Account Management (Admin only)
 - Database setup provided via `database.sql`
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL  
 - **Server:** Apache (e.g., XAMPP or WAMP)
 
-## 🚀 Installation
+##  Installation
 
 1. Clone the repository:  
    ```bash
@@ -52,7 +52,7 @@ A simple **PHP-based Warehouse Management System** to manage products, suppliers
    http://localhost/warehouse-management-system
    ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 warehouse-management-system/
@@ -87,7 +87,7 @@ warehouse-management-system/
     └─ users/
 ```
 
-## 👨‍💻 Author
+##  Owner
 
 **Anmol Som**  
 
